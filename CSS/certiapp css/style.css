@@ -1,0 +1,91 @@
+.front{
+    background-color:  #f0f0f0;
+    text-align: center;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+}
+.b1{
+    background-color: rgb(62, 202, 230);border: none;color: white;font-size: large;
+}
+.b2{
+    border: none;font-size: large;
+}
+
+.main{
+    margin-top: 100px;
+}
+.b3{
+    border-color: rgb(62, 202, 230);
+}
+.b4{
+    background-color:rgb(62, 202, 230) ;height: 25px;font-size: large;color: white;
+}
+
+.b5{
+    margin-top: 40px;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+}
+.title1{
+margin-top: 0px;font-size: x-large;font-weight:bolder;
+}
+.a1{
+   height: 25px;font-size: large;border: none;
+}
+.a2{
+     border: none;font-size: large; background-color:rgb(62, 202, 230) ;color: white;
+}
+
+.issue{
+ background-color: #f0f0f0;
+}
+.box{
+    width: 900px;
+    height: auto;
+    border:solid  rgb(235, 235, 205);
+    margin: auto;
+    background-color: white;   
+    margin-top: 60px;
+    padding-left: 30px;
+}
+
+.a3{
+    background-color:rgb(62, 202, 230) ;color: black;border: none;font-size: large; margin: 10px;margin-left: 0px;
+
+}
+.c{ 
+    font-size: large;
+
+}
+.d{
+    width: 450px;height: 34px;
+}
+
+.f{
+    width: 440px;height: 30px;
+}
+.r1{
+    text-align: center;
+}
+.view{
+    background-color:  #f0f0f0;
+}
+.r-box{
+    width: 800px;
+    height: auto;
+    border: solid black 2px ;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+box-shadow: 5px 5px 5px grey;
+}
+.r2{
+    text-align: center;font-style: italic;font-size: large;
+}

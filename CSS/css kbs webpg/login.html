@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #f0e6ff;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .box {
+            width: 400px;height: 250px;
+            background-color: white;
+            border: 2px solid #dcd6f7;
+            padding: 50px;
+            margin: auto;
+            margin-top: 100px;
+            box-shadow: 100px;
+        }
+
+        .heading {
+            text-align: center;
+            color: purple;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .input-box {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid gray;
+        }
+
+         .login-box {
+            
+            padding: 8px 20px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+
+.login-line{
+    display: flex;
+    justify-content: space-between;
+}
+        .pass {
+            
+            text-align: right;
+            color: purple;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .bottom-text {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+
+        .bottom-text a {
+            color: purple;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="heading">Login</div>
+        
+        <form>
+            <label style="font-weight: bold; font-size: 14px;">Email:</label><br>
+            <input type="text" class="input-box"><br>
+
+            <label style="font-weight: bold; font-size: 14px;">Password:</label><br>
+            <input type="password" class="input-box"><br>
+
+
+ <div class="login-line">
+            <input type="submit" class="login-box" value="Login"  style="background-color: purple;
+            color: white; "> 
+
+           <div>
+
+            <a href="" class="pass">Forgot Password?</a></div>
+</div>
+        </form>
+
+        <div class="bottom-text">
+            Don't have an account? <a href="">Sign Up</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

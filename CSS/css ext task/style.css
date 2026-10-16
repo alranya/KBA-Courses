@@ -1,0 +1,177 @@
+
+
+body{
+    margin: 0px;
+}
+
+
+
+.box{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+justify-content: space-between; 
+background-color: rgb(220, 212, 227);
+border-bottom: solid rgb(209, 196, 220);
+
+
+}
+.nav{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    padding-right: 10px;
+    
+}
+.nav li{
+    padding-left: 10px;
+}
+.box a{
+    text-decoration:none;
+}
+
+img{
+    width: 50px;
+    height: 60px;
+    justify-content:left;
+    padding-top: 2px;
+    text-align:right;}
+
+    .main-box{
+        width: 700px;
+        height: auto;
+        border: 1px; 
+    border: solid rgb(221, 214, 221);background-color: rgb(220, 212, 227);
+    
+    margin-left: 100px;
+    align-items: center;
+margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+}
+.sub-box{
+
+padding-left: 20px;
+}
+h2{
+    color: blueviolet;
+}
+
+
+.cart{
+    display: flex;
+    justify-content: end;
+    display: flex;        
+  gap: 15px;  
+}
+ .button1{
+    background-color: blueviolet;color: white;
+    border: none;width: 90px;height: 30px;
+    margin-top: 15px;
+ }   
+ .button2{
+    display: flex;
+justify-content: end;
+margin-right: 200px;
+padding-right: 40px;
+display: flex;        
+  gap: 15px;  
+ }
+ .b1{
+    background-color: rgb(106, 106, 243);
+    border: none;
+ }
+ .b2{
+    background-color: red;
+    border: none;
+    
+ }
+ .course{
+   padding-left: 400px;
+ }
+
+ .heading{
+    color: rgb(104, 25, 183);font-size: xx-large;font-weight:1000;text-align: center;
+ }
+ .signup{
+    background-color: rgb(227, 206, 247);
+ }
+
+ .sign-box{
+     width: 400px;height: auto;
+            background-color: white;
+            border: 2px solid #dcd6f7;
+            padding: 50px;
+            margin: auto;
+            margin-top: 100px;
+            box-shadow: 100px;
+ }
+.input-box{
+     width: 100%;
+            padding: 8px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            background-color: white;
+}
+.field{
+     width: 420px;
+            padding: 8px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            background-color: white;
+}
+
+
+ .button3{
+    margin: 20px;
+
+    border: none;
+ }
+ .signup{
+    background-color: white;
+    
+ }
+
+ .update-box{
+     width: 500px;
+        height: 580px;
+        border: 1px; 
+    border: solid rgb(221, 214, 221);background-color: rgb(220, 212, 227);
+
+   margin: auto;
+   margin-top: 90px;
+   margin-bottom: 50px;
+    /* padding: 60px; */
+   
+ }
+
+ .field1{
+   
+    width: 100%;
+            padding: 8px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+
+ }
+
+ .c1{
+    font-weight: bold;font-size:large;
+    
+   
+ }
+
+ .button4{
+    text-align: center;
+    
+ }
+
+  .field2{
+    width: 480px;
+            padding: 8px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            background-color: white;
+  }
